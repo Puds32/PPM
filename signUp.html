@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Sign Up - Authentication Service</title>
+        <script src="https://sdk.amazonaws.com/js/aws-sdk-2.3.16.min.js"></script>
+    </head>
+    <body>
+        <h2>Authentication Service</h2>
+        <h1>Sign Up</h1>
+        <form role="form" id="signup-form">
+            <div>
+                <label role="email">Email:</label>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="pasword" id="password">
+            </div>
+            <div>
+                <label for="password">Verify Password:</label>
+                <input type="password" id="verify-password">
+            </div>
+            <button type="submit" id="signup-button">Sign Up</button>
+        </form>
+        <div id="result"></div>
+        <a href="index.html">Back</a>
+        <script src="js/signUp.js"></script>
+    </body>
+</html>
