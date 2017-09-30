@@ -1,0 +1,13 @@
+{
+    "AWS-ACCOUNT_ID":"461582971764",
+    "REGION":"us-west-2",
+    "BUCKET":"mckppm",
+    "MAX_AGE":"10",
+    "DDB_TABLE":"AuthUsers",
+    "IDENTITY_POOL_ID":"us-west-2:7f428de1-156c-410d-a485-b85f6e5c5d83",
+    "DEVELOPER_PROVIDER_NAME":"mikemckenna47@gmail.com",
+    "EXTERNAL_NAME":"PPM Authentication",
+    "EMAIL_SOURCE":"mikemckenna47@gmail.com",
+    "VERIFICATION_PAGE":"https://mckppm.s3.amazonaws.com/verify.html",
+    "RESET_PAGE":"https://mckppm.s3.amazonaws.com/resetPassword.html"
+}
